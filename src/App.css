@@ -1,0 +1,80 @@
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1;
+  padding: 10px;
+  width: 100px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Table.css */
+
+/* Table.css */
+
+#table-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (if needed) */
+  height: 100vh; /* Use this if you want vertical centering in full viewport */
+  margin: 0; /* Reset margin for full centering effect */
+}
+
+#printTable {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensures rounded corners are applied */
+}
+
+thead {
+  background-color: #4CAF50; /* Dark green header */
+  color: white; /* White text */
+}
+
+th, td {
+  padding: 15px; /* Increased padding for better spacing */
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  font-weight: bold; /* Bold header text */
+  text-transform: uppercase; /* Uppercase text for header */
+}
+
+tbody tr {
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Light grey background on hover */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row color */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* Odd rows white */
+}
+
+td {
+  border: 1px solid #ddd; /* Light grey border */
+}
+
